@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio Bruno Bessa</title>
+    <link rel="stylesheet" href="meucss.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#formacao">Formação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="pagina">
+        <h1>Eu sou o Bruno Bessa</h1>
+    </section>
+
+    <section id="sobre" class="pagina fundo-sobre">
+        <h2>Sobre Mim</h2>
+        <div class="cards">
+            <div class="card">Tenho 24 anos, atualmente engenheiro da NASA.</div>
+            <div class="card">Movido por desafios e soluções tecnológicas.</div>
+            <div class="card">Domínio em dados, simulação e sistemas integrados.</div>
+        </div>
+    </section>
+
+    <section id="projetos" class="pagina">
+        <h2>Meus Projetos</h2>
+        <div class="cards">
+            <div class="card">Sistema autónomo de monitoramento orbital</div>
+            <div class="card">Simuladores de telemetria avançada</div>
+            <div class="card">Integração de sensores para habitats lunares</div>
+        </div>
+    </section>
+
+    <section id="experiencias" class="pagina">
+        <h2>Experiências Profissionais</h2>
+        <div class="cards">
+            <div class="card">Engenheiro de Sistemas Espaciais na NASA</div>
+            <div class="card">Desenvolvimento de sistemas autónomos</div>
+            <div class="card">Análise de dados de missões espaciais</div>
+        </div>
+    </section>
+
+    <section id="formacao" class="pagina">
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li>Bacharelado em Engenharia de Sistemas</li>
+            <li>Certificação em IA Aplicada</li>
+            <li>Especialização em Robótica Autónoma</li>
+        </ul>
+        <button onclick="document.getElementById('curriculo').style.display='block'">Aceda ao meu currículo</button>
+        <div id="curriculo" style="display:none; margin-top: 10px;">
+            <a href="curriculo-bruno-bessa.pdf" download>Descarregue aqui</a>
+        </div>
+    </section>
+
+</body>
+
+</html>

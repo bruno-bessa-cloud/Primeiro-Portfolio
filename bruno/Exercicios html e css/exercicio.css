@@ -1,0 +1,72 @@
+body {
+    padding: 50;
+    margin: 50;
+    background-color: #856969;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00bfff;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.titulo-linha {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.titulo-linha h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.cargo {
+    font-size: 16px;
+    color: gray;
+    display: inline;
+}
+
+.descricao {
+    display: block;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.botao-contactar {
+    display: inline-block;
+    background-color: #00bfff;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao-contactar:hover {
+    background-color: #0099cc;
+}
+
+.mensagem-secreta {
+    display: none;
+}
